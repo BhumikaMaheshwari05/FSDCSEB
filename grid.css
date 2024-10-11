@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+.row1 {
+    background-color:#0F1111;
+    color: white;
+    height: 60px;
+    /* border: 1px dotted red; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.row2 {
+    background-color: #1f2121;
+    color: rgb(34, 32, 32);
+    height: 50px;
+    border: 1px solid rgb(246, 239, 239);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.row2 ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.row2 li {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.row3 {
+    height: 200px;
+    border: 2px solid rgb(242, 242, 245);
+}
+.row3 img {
+    width: 100%;  
+}
+.row4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2px;
+    background-color: rgb(231, 196, 228);
+    flex-wrap: wrap;
+    gap: 10px;
+    background-image: url(images/imgi.jpg); 
+    margin-top: 50px;
+    margin-right: 8px;
+}
+.row41, .row42, .row43, .row44 {
+    height: 300px;
+    width: 20%; 
+    border: 2px solid red;
+    padding: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+.row412, .row422, .row432, .row442 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 6px;
+}
+.item1 > img, .item2 > img, .item3 > img, .item4 > img {
+    width: 100%;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+}
+.search-container input[type="text"] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    width: 600px;
+    border-radius: 8px 0 0 8px;
+}
+.search-container button {
+    padding: 12px;
+    background: #e8d14f;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 8px 8px 0px;
+}
+.search-container button:hover{
+    background: #c3a308;
+}
