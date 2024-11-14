@@ -6,10 +6,11 @@ ul li {
     list-style: none;
     display: inline;
     padding: 10px;
+    margin-right: 10px;
 }
 .container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr
     grid-template-rows: auto;
 }
 .row1 {
@@ -31,13 +32,14 @@ ul li {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 .row2 ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
     padding: 0;
-    margin: 0;
+    margin-right:50%;
 }
 .row2 li {
     background-color: #ffffff;
@@ -76,6 +78,7 @@ ul li {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 6px;
+    border: 2px solid black;
 }
 .item1 > img, .item2 > img, .item3 > img, .item4 > img {
     width: 100%;

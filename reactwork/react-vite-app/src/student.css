@@ -1,0 +1,9 @@
+.icard{
+    background-color: rgb(171, 230, 248);
+    height: 300px;
+    width: 250px;
+    border: 10px solid red;
+    margin: 50px;
+    align-self: center;
+
+}
