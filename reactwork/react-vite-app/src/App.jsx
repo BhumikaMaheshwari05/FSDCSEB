@@ -2,6 +2,8 @@ import React from 'react'
 import Student from './Student';
 import logo from "./assets/img.png"
 import UseStudentState from './UseStudentState';
+import Imagemanipulation from './Imagemanipulation';
+
 function App() {
   const h1=<h1>Hello World</h1>;
   const mystyle={
@@ -71,7 +73,8 @@ function App() {
       <div>
         <h2>Hello Using useState Hook</h2>
         <div>
-          <UseStudentState/>
+          {/* <UseStudentState/> */}
+          <Imagemanipulation/>
         </div>
       </div>
     
